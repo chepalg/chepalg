@@ -1,10 +1,16 @@
-- 👋 Hi, I’m @chepalg
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning  c
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
+// using_namespace.cpp
+#include <iostream>
+#include <cstdlib>
+// Строки C++.
+#include <string>
 
-<!---
-chepalg/chepalg is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+int main()
+{
+  using namespace std; // Искать имена в std.
+
+  string user_name = "user"; // a
+  cout << "Hello, " << user_name << "!" << endl;
+
+  user_name = "The Great Whale"; // b
+  cout << "I am " << user_name;
+  return EXIT_SUCCESS. 
